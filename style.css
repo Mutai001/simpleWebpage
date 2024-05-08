@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: 1.5px;
+    background-color: antiquewhite;
+    margin-left: 25%;
+    margin-right: 15%;
+}
+
+h2 {
+    color: brown;
+    margin-left: 5px;
+}
+
+.container {
+    max-height: 130rem;
+    width: 70%;
+    padding: 20px 50px 20px 50px;
+    background-color: aliceblue;
+}
+
+img {
+    /* height: 300px; */
+    border-radius: 15%;
+    width: 100%;
+}
+
+.explanation {
+    width: 70%;
+    /* margin: 20px auto; */
+}
+
+.preparation {
+    background-color: rgb(228, 202, 226);
+    width: 100%;
+    /* margin: 20px auto; */
+    border-radius: 3%;
+}
+
+table,
+tr,
+td,
+th {
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+tr {
+    border-bottom: 1px solid black;
+    border-spacing: 1000px;
+}
+
+th {
+    color: brown;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+.attribution {
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 0px;
+    font-style: italic;
+}
