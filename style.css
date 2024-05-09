@@ -1,11 +1,7 @@
 body {
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    text-align: left;
-    letter-spacing: 1.5px;
-    background-color: antiquewhite;
-    margin-left: 25%;
-    margin-right: 15%;
+    margin: 0;
+    height: 100%;
+    background-color: burlywood;
 }
 
 h2 {
@@ -14,21 +10,20 @@ h2 {
 }
 
 .container {
-    max-height: 130rem;
-    width: 70%;
-    padding: 20px 50px 20px 50px;
-    background-color: aliceblue;
+    margin: auto;
+    width: 50%;
+    border-radius: 3%;
+    background-color: #fff;
+    padding: 20px 20px 20px 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 img {
-    /* height: 300px; */
-    border-radius: 15%;
-    width: 100%;
-}
-
-.explanation {
-    width: 70%;
-    /* margin: 20px auto; */
+    height: 300px;
+    width: 98%;
+    margin: auto;
+    border-radius: 5%;
 }
 
 .preparation {
